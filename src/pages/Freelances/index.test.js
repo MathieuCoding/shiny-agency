@@ -17,7 +17,7 @@ const freelancersMockedData = [
     picture: '',
   },
 ]
-
+//here is a test
 const server = setupServer(
   rest.get('http://localhost:8000/freelances', (req, res, ctx) => {
     return res(ctx.json({ freelancersList: freelancersMockedData }))
